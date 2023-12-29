@@ -47,6 +47,11 @@ const router = createRouter({
           path: 'amazon-spn',
           name: 'amazonSPN',
           component: () => import('@/views/clientSupport/amazonSPN.vue')
+        },
+        {
+          path: 'lc-system',
+          name: 'lcSystem',
+          component: () => import('@/views/clientSupport/system.vue')
         }
       ]
     },
