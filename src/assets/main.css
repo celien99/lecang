@@ -65,4 +65,8 @@ a,
   overflow-x: hidden;
   padding-top: 110px;
 }
-
+.content {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}

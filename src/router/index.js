@@ -42,6 +42,11 @@ const router = createRouter({
           path: 'promise',
           name: 'promise',
           component: () => import('@/views/clientSupport/commit.vue')
+        },
+        {
+          path: 'amazon-spn',
+          name: 'amazonSPN',
+          component: () => import('@/views/clientSupport/amazonSPN.vue')
         }
       ]
     },
