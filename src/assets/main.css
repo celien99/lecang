@@ -1,0 +1,21 @@
+@import './base.css';
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0;}
+ul,li{ padding:0;margin:0;list-style:none}
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+}
+.router-link-active {
+  text-decoration: none;
+}
+
