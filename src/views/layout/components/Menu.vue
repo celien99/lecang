@@ -20,7 +20,7 @@
         </el-sub-menu>
         <el-sub-menu index="3">
             <template #title>客户支持</template>
-            <el-menu-item index="3-1">乐仓承诺</el-menu-item>
+            <el-menu-item index="3-1"><router-link to="/promise">乐仓承诺</router-link></el-menu-item>
             <el-menu-item index="3-2">亚马逊SPN</el-menu-item>
             <el-menu-item index="3-3">乐仓系统</el-menu-item>
             <el-menu-item index="3-4">合作案例</el-menu-item>

@@ -54,5 +54,6 @@ defineProps({
     letter-spacing: 5px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
+    letter-spacing: normal;
 }
 </style>

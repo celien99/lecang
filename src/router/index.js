@@ -37,6 +37,11 @@ const router = createRouter({
           path: 'overseas',
           name: 'overseas',
           component: () => import('@/views/service/overseas.vue')
+        },
+        {
+          path: 'promise',
+          name: 'promise',
+          component: () => import('@/views/clientSupport/commit.vue')
         }
       ]
     },

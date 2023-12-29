@@ -18,4 +18,51 @@ a,
 .router-link-active {
   text-decoration: none;
 }
+.common-header {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto 50px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+}
+.common-header h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.common-header h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.main {
+  padding-top: 42px;
+  background: #3f4154;
+}
+
+.home-top {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.home-middle {
+  width: 100%;
+  background: #484B61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+
+.home-bottom {
+  width: 100%;
+  background: #3F4154;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
 
