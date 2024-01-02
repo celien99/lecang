@@ -52,6 +52,11 @@ const router = createRouter({
           path: 'lc-system',
           name: 'lcSystem',
           component: () => import('@/views/clientSupport/system.vue')
+        },
+        {
+          path: 'h-support',
+          name: 'helpSupport',
+          component: () => import('@/views/clientSupport/helpSupport.vue')
         }
       ]
     },

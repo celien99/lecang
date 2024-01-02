@@ -24,7 +24,7 @@
             <el-menu-item index="3-2"><router-link to="/amazon-spn">亚马逊SPN</router-link></el-menu-item>
             <el-menu-item index="3-3"><router-link to="/lc-system">乐仓系统</router-link></el-menu-item>
             <el-menu-item index="3-4">合作案例</el-menu-item>
-            <el-menu-item index="3-5">帮助支持</el-menu-item>
+            <el-menu-item index="3-5"><router-link to="/h-support">帮助支持</router-link></el-menu-item>
         </el-sub-menu>
         <el-menu-item index="4">资讯动态</el-menu-item>
         <el-menu-item index="5">生态合作</el-menu-item>
