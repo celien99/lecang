@@ -16,7 +16,7 @@
             <el-menu-item index="2-3"><router-link to="/drop-shipping">一件代发</router-link></el-menu-item>
             <el-menu-item index="2-4"><router-link to="/export-agent">代理出口</router-link></el-menu-item>
             <el-menu-item index="2-5"><router-link to="/supplyChain">供应链服务</router-link></el-menu-item>
-            <el-menu-item index="2-6">FBA转运</el-menu-item>
+            <el-menu-item index="2-6"><router-link to="/fba">FBA转运</router-link></el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="3">
             <template #title>客户支持</template>

@@ -57,6 +57,11 @@ const router = createRouter({
           path: 'h-support',
           name: 'helpSupport',
           component: () => import('@/views/clientSupport/helpSupport.vue')
+        },
+        {
+          path: 'fba',
+          name: 'FBA',
+          component: () => import('@/views/service/FBA.vue')
         }
       ]
     },
