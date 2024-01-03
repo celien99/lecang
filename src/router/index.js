@@ -62,6 +62,11 @@ const router = createRouter({
           path: 'fba',
           name: 'FBA',
           component: () => import('@/views/service/FBA.vue')
+        },
+        {
+          path: 'advantage',
+          name: 'advantage',
+          component: () => import('@/views/about/advantage.vue')
         }
       ]
     },
