@@ -32,7 +32,7 @@
             <template #title>关于乐仓</template>
             <el-menu-item index="6-1">乐仓简介</el-menu-item>
             <el-menu-item index="6-2"><router-link to="/advantage">乐仓优势</router-link></el-menu-item>
-            <el-menu-item index="6-3">联系我们</el-menu-item>
+            <el-menu-item index="6-3"><router-link to="/contact-us">联系我们</router-link></el-menu-item>
         </el-sub-menu>
         <i class='icon'></i>
         <el-menu-item index="7">申请合作</el-menu-item>

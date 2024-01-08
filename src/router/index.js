@@ -67,6 +67,11 @@ const router = createRouter({
           path: 'advantage',
           name: 'advantage',
           component: () => import('@/views/about/advantage.vue')
+        },
+        {
+          path: 'contact-us',
+          name: 'contact',
+          component: () => import('@/views/about/contact.vue')
         }
       ]
     },
