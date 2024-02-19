@@ -31,4 +31,9 @@ import FooterNav from './components/FooterNav.vue'
   .el-footer {
     width: 100%;
   }
+  @media screen and (max-width: 750px) {
+    .el-main {
+      margin-top:256px;
+    }
+  }
 </style>
